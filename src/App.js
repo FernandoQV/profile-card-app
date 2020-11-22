@@ -1,8 +1,13 @@
 
-
+import React from 'react'
+import GlobalStyles from './components/helpers/GlobalStyles'
+import AppCard from './components/AppCard'
 function App() {
   return (
-    <h1>hola app mentor</h1>
+    <>
+    <GlobalStyles/>
+    <AppCard/>
+    </>
   );
 }
 
